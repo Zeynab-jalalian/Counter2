@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: pink !important;
+}
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.counter{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.counter h1{
+    font-size: 2rem;
+}
+.counter #count{
+    font-size: 9rem;
+}
